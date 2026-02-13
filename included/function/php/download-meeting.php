@@ -123,5 +123,4 @@
     
         echo $content_display;
     }
-    
 ?>

@@ -1,0 +1,47 @@
+JW Meeting Scheduler
+
+A web-based Meeting Scheduling and Management System built using PHP, MySQL, JavaScript, HTML, and CSS.
+
+Overview
+
+    This application allows users to manage meeting schedules, assign roles, 
+    generate printable reports, and handle organizational planning in an efficient way.
+
+    It includes authentication, role-based privileges, customizable scheduling tables, 
+    and exportable meeting data.
+
+Features
+
+    User Authentication (Login / Sign-Up)
+
+    Dashboard Management
+
+    Role & Privilege Assignment
+
+    Meeting Scheduling System
+
+    Custom Table Creation
+
+    Meeting Data Export (JSON)
+
+    Printable Meeting Reports
+
+    User Settings Panel
+
+    Cookie-Based Key System
+
+    Upload & Create Key Functionality
+
+    🛠 Technologies Used
+
+    PHP (Procedural)
+
+    MySQL (mysqli)
+
+    JavaScript
+
+    HTML5
+
+    CSS3
+
+    JSON File Handling

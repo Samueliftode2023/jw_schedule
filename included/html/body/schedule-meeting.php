@@ -16,7 +16,7 @@
                         $value = date("W", $date_azi);
                         $week = $value; 
 
-                        get_all_week($year,$week)
+                        get_all_week(2026,$week)
                     ?>
                 </select>
             </label>

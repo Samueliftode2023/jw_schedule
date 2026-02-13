@@ -37,5 +37,24 @@
                 </div>
             </div>
         </div>
+        <div>
+            <div id='viata-crestina' class='meniu-linkuri'>
+                <div class='cap-meniu'>
+                    <div class='icon-intrunire'>
+                        <span class="material-symbols-outlined">
+                            location_on
+                        </span>
+                    </div>
+                    <h3>Teritorii</h3>
+                </div>
+                <div class='linkuri-dash'>
+                    <a href='../teritorii/adauga-teritorii/'>Adauga</a>
+                    <br>
+                    <a href='../teritorii/lista-teritorii/'>Lista</a>
+                    <br>
+                    <a href='../teritorii/printeaza-teritoriile/'>Printeaza</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

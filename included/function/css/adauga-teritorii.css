@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container{
+    background-color: #e7e6e6;
+}
+
+.bara-control{
+    line-height: 59px;
+    padding-left: 20px;
+}
+
+.adaugare-vizualizare{
+    display: grid;
+    grid-template-columns: 360px calc(100% - 360px);
+}
+
+#teritorii{
+    width: 300px;
+    height: 380px;
+    padding: 30px 20px 30px 20px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0px 0px 1px rgb(0, 0, 0);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 5px;
+}
+
+#teritorii label input{
+    margin-top: 5px;
+    font-size: 16px !important;
+    width: 300px;
+}
+
+#teritorii label{
+    font-size: 18px;
+    width: 300px;
+    margin: auto;
+}
+
+#teritorii button{
+    width: 300px;
+    margin: auto;
+}
+
+.tabel-tertorii{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    background-color: white;
+    box-shadow: 0px 0px 1px rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.cap-tabel{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 20% 30% 30% 20%;
+    text-align: center;
+    color: white;
+    background-color: #4a6da7;
+    padding: 10px 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.centrare-mesaj{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: gray;
+}
+
+.rand-tabel{
+    display: grid;
+    grid-template-columns: 20% 30% 30% 20%;
+    text-align: center;
+}
+
+.valori{
+    word-wrap: break-word;
+    border: 0.5px solid gray;
+    line-height: 40px;
+    overflow: auto;
+    height: 40px;
+}
+
+.marcheaza{
+    background-color: rgb(224, 224, 224);
+}
+
+#date-tabel{
+    top: 40px;
+    width: 100%;
+    position: absolute;
+    height: calc(100% - 40px);
+    overflow: auto!important;
+}

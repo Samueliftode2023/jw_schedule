@@ -55,9 +55,9 @@ function get_all_week($anul,$value){
     }
     function get_meetings_year(){
         $year = date("Y");  
-        for ($i = 2024; $i <= 2025; $i++) {
+        for ($i = 2024; $i <= 2026; $i++) {
             $select_status = '';
-            if($i == $year){
+            if($i == 2026){
                 $select_status = 'selected';
             } 
             echo "<option ".$select_status." value='".$i."'>".$i."</option>";

@@ -16,8 +16,9 @@
             $check_root = explode('/',$name_folder);
             $name_file = basename($_SERVER['PHP_SELF']);
             $accepted_file = ['download-meeting.php', 'schedule-meeting.php', 'edit-herald.php', 'privilege-herald.php',
-             'print-meeting.php', 'create-table.php', 'print-teme.php', 'settings.php','change-data-connect.php','custom-table.php'];
-            if(!in_array('dashboard',$check_root) && !in_array('meetings',$check_root) && !in_array('herald',$check_root) && !in_array('settings',$check_root) && !in_array($name_file, $accepted_file)){
+             'print-meeting.php', 'create-table.php', 'print-teme.php', 'settings.php','change-data-connect.php',
+             'custom-table.php','teritorii.php', 'adauga-teritorii.php'];
+            if(!in_array('dashboard',$check_root) && !in_array('meetings',$check_root) && !in_array('herald',$check_root) && !in_array('teritorii',$check_root) && !in_array('settings',$check_root) && !in_array($name_file, $accepted_file)){
                 header('Location:'.$root.'main/dashboard/');
                 exit;
             }
@@ -25,7 +26,7 @@
         else{
             $name_folder = dirname($_SERVER['PHP_SELF']);
             $check_root = explode('/',$name_folder);
-            $redirect = ['dashboard', 'meetings', 'herald','settings'];
+            $redirect = ['dashboard', 'meetings', 'herald', 'settings', 'teritorii'];
             $count = count($redirect);
             for ($i=0; $i < $count; $i++) { 
                 if(in_array($redirect[$i], $check_root)){
